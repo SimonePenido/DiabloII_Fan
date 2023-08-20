@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Diablo II</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="estilo.css">
+    
+</head>
+<body>
+    <header class="header">
+        <img src="midia/diablo2-logo-lg.webp" alt="Logo Diablo" class="header_logo">
+        
+        <span id="hamburguer" class="material-symbols-rounded">
+            menu
+            </span>
+        
+        <nav id="itens_menu" class="header_nav">
+            <ul>
+                <li><a href="https://www.xbox.com/pt-BR/games/store/diablo-ii-resurrected/9NBJG075JFJ5" target="_blank">Comprar</a></li>
+                <li><a href="https://www.polygon.com/2021/2/19/22289916/diablo-2-resurrected-blizzard-features-upgrades-updates" target="_blank">Análise</a></li>
+                <li><a href="https://www.blizzard.com/pt-br/" alt="Blizzard" target="_blank">Blizzard</a></li>
+                <li><a href="https://diablo2.com.br/" alt="Servidor BR" target="_blank">Servidor</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="video-container">
+            <video autoplay muted loop>
+                <source src="midia/dark-wanderer-bg-max.webm">
+            </video>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="div_footer">
+            <div><a href="https://www.facebook.com/DiabloBrasil/?brand_redir=284754698294458" Alt="Diablo Facebook" target="_blank" ><img src="midia/facebook.png" alt="Icon By @BogdanRosu/Flaticon"></a></div>
+            <div><a href="https://www.instagram.com/diablo2resurrected/" Alt="Diablo Facebook" target="_blank"> <img src="midia/instagram.png" alt="Icon By @riajulislam/Flaticon"></a></div>
+            <div><a href="https://www.linkedin.com/posts/blizzard-entertainment_diablo-ii-resurrected-street-date-trailer-activity-6810626506252009472-BKPt/?originalSubdomain=br" Alt="Diablo Facebook" target="_blank"><img src="midia/linkedin.png" alt="Icon By @riajulislam/Flaticon"></a></div>
+            <div><a href="https://www.youtube.com/watch?v=PjWeokcJyYY" target="_blank" Alt="Diablo II Video"><img src="midia/youtube.png" alt="Icon By @riajulislam/Flaticon"></a></div>
+            </div>
+            Simone Penido -  {Elas na Tech 2023}
+    </footer>
+
+    <script>
+        var hamburguer = document.getElementById('hamburguer');
+        var itens_menu = document.getElementById('itens_menu');
+
+
+        hamburguer.addEventListener('click', aparecer);
+
+
+        function aparecer() {
+            if (itens_menu.style.display == 'block') {
+                itens_menu.classList.remove('show');
+            } else {
+                itens_menu.classList.toggle('show');
+            }
+        }
+    </script>
+
+</body>
+</html>

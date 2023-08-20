@@ -1,0 +1,145 @@
+html{
+    background-color: black;
+    font-family: 'Cinzel', serif;
+}
+
+.header{
+    text-align: center;
+    margin: auto;
+    background-color: #0D0D0D;
+    color: black;
+}
+
+.header_logo{
+    width: 10em;
+    height: auto;
+}
+
+#hamburguer{
+    background-color: #F25C05;
+    color: #0D0D0D;
+    display: block;
+    text-align: center;
+    padding: 0.3em;
+    cursor: pointer;
+    font-size: 2em;
+}
+
+.header_nav{
+    background-color: #0D0D0D;
+    display: none;
+}
+
+.header_nav.show {
+    display: block;
+}
+
+@media screen and (min-width: 48em){/*768px maior que*/
+    #hamburguer{
+        display: none;
+    }
+
+    .header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #0D0D0D;
+    }
+
+    .header_logo{
+        margin-left: 2em;
+    }
+
+    .header_nav{
+        display: block;
+    }
+
+    .header_nav ul{
+        margin-right: 2em;
+        font-size: .9em;
+    }
+
+    .header_nav li{
+        display: inline-block;
+    }
+
+    .header_nav a{
+        border-radius: 5px;
+    }
+
+    .header_nav a:hover{
+        background-color: #F28F38;
+        color: #ffffff;
+    }
+
+    .header{
+        text-align: center;
+        margin: auto;
+        background-color: #0D0D0D;
+    }
+}
+
+
+ul{
+    margin: 0;
+}
+
+.header_nav ul{
+    list-style-type: none;
+    padding: 0;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    font-size: 1em;
+    font-family: 'Cinzel', serif;
+    color: black;
+}
+
+.header_nav a{
+    background-color: #F25C05;
+    text-decoration: none;
+    display: block;
+    padding: .7em;
+    color: black;
+    font-weight: 800;
+}
+
+.header_nav a:hover{
+    background-color: color-mix(in srgb, #F25C05, #f5c04f 30%);
+    color: #0D0D0D;
+}
+
+.video-container {
+    height: 550px;
+    width: 100%;
+    position: relative;
+}
+
+.video-container video {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+    z-index: 0;
+}
+
+.video-container{
+    z-index: 1;
+    position: relative;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    color: #F25C05;
+}
+
+.div_footer{
+    display: flex;
+    justify-content: center;
+}
+
+.div_footer img{
+    width: 2.5rem;
+    padding: 1em .4em;
+    align-items: center;
+}
