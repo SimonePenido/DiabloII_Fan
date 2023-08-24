@@ -143,3 +143,7 @@ footer{
     padding: 1em .4em;
     align-items: center;
 }
+
+.div_footer img:hover {
+    width: 2.7rem;
+}
