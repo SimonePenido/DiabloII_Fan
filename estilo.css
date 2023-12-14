@@ -109,7 +109,7 @@ ul{
 }
 
 .video-container {
-    height: 800px;
+    height: 900px;
     width: 100%;
     position: relative;
 }
@@ -126,6 +126,33 @@ ul{
     z-index: 1;
     position: relative;
 }
+
+.fundo_main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.galeria a {
+    text-decoration: none;
+    display: inline-block;
+    background-color: #f25c055b;
+    padding: .8em 1.6em;
+    font-size: 1.5em;
+    font-weight: 900;
+    text-transform: uppercase;
+    border-radius: 5px;
+    letter-spacing: .1em;
+    font-family: 'Cinzel', serif;
+    color:#fff;
+}
+
+div.galeria a:hover {
+    color: #F25C05;
+    background-color: #f5c04f;
+    font-weight: 900;
+}
+
 
 footer{
     background-color: black;
