@@ -8,7 +8,8 @@ Bem-vindo ao repositório de Fãs de Diablo II!
 [DiabloII_Fan Repository](https://github.com/SimonePenido/DiabloII_Fan)
 
 
-Este repositório contém diversos recursos, informações e conteúdos dedicados ao jogo Diablo II.
+Projeto de página de divulgação do jogo Diabo II, como parte do desafio de aprendizagem da trilha #ElasNaTech em parceria com IBM Skills Network, JA Brazil e CCR S.A.
+ Conceitos incorporados do framework Bootstrap, que é um conjunto de ferramentas e bibliotecas que fornecem uma estrutura pré-construída.  É usado para desenvolvimento front-end, aproveitando recursos HTML, CSS e Javascript.  É possível modificar as configurações do framework, embora neste projeto tenha utilizado a versão compacta .min.css e .min.js.
 
 ## Conteúdo
 
@@ -37,7 +38,8 @@ Este repositório está licenciado sob a [Licença MIT](LICENSE).
 
 Welcome to the Diablo II Fan repository!
 
-This repository contains various resources, information, and content dedicated to the Diablo II game.
+Webpage project for promoting the game Diabo II, as part of the learning challenge within the #ElasNaTech track in partnership with the IBM Skills Network, JA Brazil, and CCR S.A. 
+Incorporated concepts from the Bootstrap framework, which is a set of tools and libraries providing a pre-built structure. It is used for front-end development, leveraging HTML, CSS, and Javascript resources. It is possible to modify the framework settings, although in this project, I used the compact version .min.css and .min.js.
 
 ## Contents
 
